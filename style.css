@@ -1,0 +1,76 @@
+body {
+    margin: 30px;
+    font-size: large;
+  
+    background-color: rgba(63, 27, 6, 0.651);
+
+     h1 {
+        text-align: center;
+        color: #fc582f;
+        }
+     
+    .main_menu {
+        text-align: center;
+    }
+
+    .main_nav {
+        text-align: right;
+    }
+
+    .main_order_forum {
+        text-align: center;
+    }
+
+    .main_footer {
+        text-align: right;
+    }
+    
+    .main_description {
+        text-align: center;
+    }
+
+    .box {
+        background-color: #fddfbf; 
+        color: #6b1f1f;             
+        padding: 10px 20px;
+        border-radius: 8px; 
+        margin: 10px auto;
+        width: 1000px;
+    }
+
+    .meal_entry {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .meal_entry label {
+        display: block;
+        margin-bottom: 6px;
+
+    }
+
+    .meal_entry input {
+        padding: 6px 10px;
+        border-radius: 8px;
+        border: none;
+        width: 180px;
+        background-color: #e67e22;
+    }
+
+    input[type="number"],
+    textarea {
+        width: 20%;
+        padding: 8px;
+        border: none;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        background-color: #ca7743;
+        color: #2a1a1a;
+    }
+
+    textarea {
+        resize: vertical;
+        height: 80px;
+    }
+    
+}
